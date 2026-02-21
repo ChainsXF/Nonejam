@@ -1,5 +1,5 @@
 //lista de colisoes 
-colisoes=[obj_chao,obj_botao_chao,obj_porta]
+colisoes=[obj_chao,obj_botao_chao,obj_porta,obj_botao_lustre,obj_caixa,obj_suporte_caixa]
 
 velv=0
 grav=.3
@@ -30,4 +30,13 @@ dando_colisao= function ()
             global.colisao_morto=true
         }
     }    
+}
+
+colidindo_exploxao=function ()
+{
+    if (place_meeting(x+1,y,obj_barri_inflamavel))
+    {
+       instance_destroy(obj_barri_inflamavel) 
+       instance_destroy(obj_suporte_caixa) 
+    }
 }

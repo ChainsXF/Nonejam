@@ -17,7 +17,7 @@ jump=noone
 death=noone
 
 //lista de colisoes 
-colisoes=[obj_chao,obj_botao_chao,obj_porta]
+colisoes=[obj_chao,obj_botao_chao,obj_porta,obj_botao_lustre,obj_caixa,obj_suporte_caixa]
 
 //personagem está vivo ou morto
 estado_morto="vivo"
@@ -84,7 +84,30 @@ mecanica_morrer=function ()
         sprite_index=spr_player
         global.morto=false
         estado_morto="vivo"
+        if (place_meeting(x,y,obj_lustre))
+        {
+            estado_morto="morto_queimado"
+        }        
+            
         break
+        
+        case "morto_queimado":
+            sprite_index=spr_player_fantasma
+            image_alpha=.7
+             
+        if (!instance_exists(obj_player_morto))
+        {
+         var _morto=instance_create_layer(x,y,"personagem_morto",obj_player_morto)
+            _morto.sprite_index=spr_player_morto_queimado
+           
+        }
+            
+        if (global.colisao_morto=true)
+        {
+            array_push(colisoes,obj_player_morto)
+        } 
+            
+        break       
         
         case "morto": 
             sprite_index=spr_player_fantasma
@@ -129,5 +152,34 @@ movendo_corpo= function ()
                     }	
             }
         }       
-    }   
+    }
+    ds_list_destroy(_push_list)   
+}
+
+movendo_caixa= function ()
+{
+   var _push_list=ds_list_create()
+   var _is_block_h=instance_place_list(x+hspd,y,obj_caixa,_push_list,false)
+  if (_is_block_h)
+    {
+        if (ds_list_size(_push_list)) >0
+        {
+            for (var i = 0; i < ds_list_size(+_push_list); i++)
+             {
+                var _block=_push_list[|i]
+                with (obj_caixa)
+                     {
+                        
+                       if (!place_meeting(x+other.hspd,y,colisoes) )
+                    {
+                        
+                       x+=other.hspd/2
+                          
+                    } 
+                    	 
+                    }	
+            }
+        }       
+    }
+    ds_list_destroy(_push_list)   
 }
