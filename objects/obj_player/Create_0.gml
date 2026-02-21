@@ -14,10 +14,13 @@ down=noone
 left=noone
 right=noone
 jump=noone
+death=noone
 
 //lista de colisoes 
-colisoes=[obj_chao]
+colisoes=[obj_chao,obj_player_morto]
 
+//personagem está vivo ou morto
+estado_morto="vivo"
 
 
 pega_inputs= function ()
@@ -26,7 +29,8 @@ pega_inputs= function ()
     down=keyboard_check(ord("S"))   
     left=keyboard_check(ord("A"))   
     right=keyboard_check(ord("D")) 
-    jump=keyboard_check_pressed(vk_space)  
+    jump=keyboard_check_pressed(vk_space)
+    death=keyboard_check_pressed(ord("E"))  
 }
 
 movimentacao_horizontal = function ()
@@ -63,4 +67,35 @@ movimentacao_vertical= function ()
       velv=clamp(velv,-max_velv,max_velv)  
     }       
     
+}
+
+mecanica_morrer=function ()
+{
+    if (death)
+    {
+        global.morto=true
+        estado_morto="morto"
+    }
+    
+    switch (estado_morto)
+     {
+        case "vivo":
+        sprite_index=spr_player
+        global.morto=false
+        estado_morto="vivo"
+        break
+        
+        case "morto": 
+            sprite_index=spr_player_fantasma
+            image_alpha=.7   
+        if (!instance_exists(obj_player_morto))
+        {
+         instance_create_layer(x,y,"personagem_morto",obj_player_morto)    
+        }
+      
+  
+        
+    } 
+    
+       
 }

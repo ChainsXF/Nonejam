@@ -36,9 +36,13 @@
   "name":"Nonejam",
   "resources":[
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
+    {"id":{"name":"obj_player_morto","path":"objects/obj_player_morto/obj_player_morto.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"globais","path":"scripts/globais/globais.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
+    {"id":{"name":"spr_player_fantasma","path":"sprites/spr_player_fantasma/spr_player_fantasma.yy",},},
+    {"id":{"name":"spr_player_morto","path":"sprites/spr_player_morto/spr_player_morto.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
   ],
   "resourceType":"GMProject",
