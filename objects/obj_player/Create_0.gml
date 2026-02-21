@@ -17,7 +17,7 @@ jump=noone
 death=noone
 
 //lista de colisoes 
-colisoes=[obj_chao,obj_player_morto]
+colisoes=[obj_chao]
 
 //personagem está vivo ou morto
 estado_morto="vivo"
