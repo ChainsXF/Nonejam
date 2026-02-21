@@ -14,7 +14,7 @@ movendo_porta=function ()
     break                
       
     case "fechando":
-    y=approach(y,288,.6)    
+    y=approach(y,288,.8)    
         
         
     break    
