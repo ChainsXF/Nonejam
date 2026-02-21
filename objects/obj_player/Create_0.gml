@@ -1,0 +1,66 @@
+velh=0
+velv=0
+max_velh=6
+max_velv=8
+acc=.3
+dcc=.3
+hspd=0
+vspd=0
+grav=.4
+
+//variaveis de input
+up=noone
+down=noone
+left=noone
+right=noone
+jump=noone
+
+//lista de colisoes 
+colisoes=[obj_chao]
+
+
+
+pega_inputs= function ()
+{
+    up=keyboard_check(ord("W"))   
+    down=keyboard_check(ord("S"))   
+    left=keyboard_check(ord("A"))   
+    right=keyboard_check(ord("D")) 
+    jump=keyboard_check_pressed(vk_space)  
+}
+
+movimentacao_horizontal = function ()
+{
+    var _move=(right-left!=0)
+    
+    if (_move) //estou me movendo 
+    {
+        velh=lerp(velh,max_velh,acc)       
+    }
+    else
+    {
+        velh=lerp(velh,0,dcc)
+    }     
+    
+    var _dir=point_direction(0,0,right-left,0)
+    hspd=lengthdir_x(velh,_dir)
+    hspd=round(hspd)
+}
+
+movimentacao_vertical= function ()
+{
+    var _checa_chao=place_meeting(x,y+1,colisoes)
+    if (_checa_chao)
+    {
+     if (jump)
+    { 
+        velv=-max_velv     
+    }    
+    }
+    else
+    {
+      velv+=grav
+      velv=clamp(velv,-max_velv,max_velv)  
+    }       
+    
+}
