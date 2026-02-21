@@ -17,7 +17,7 @@ jump=noone
 death=noone
 
 //lista de colisoes 
-colisoes=[obj_chao]
+colisoes=[obj_chao,obj_botao_chao,obj_porta]
 
 //personagem está vivo ou morto
 estado_morto="vivo"
@@ -72,7 +72,7 @@ movimentacao_vertical= function ()
 
 mecanica_morrer=function ()
 {
-    if (death)
+    if (death) or place_meeting(x+sign(hspd),y,obj_espinho)
     {
         global.morto=true
         estado_morto="morto"
@@ -118,7 +118,8 @@ movendo_corpo= function ()
                 var _block=_push_list[|i]
                 with (obj_player_morto)
                      {
-                       if (!place_meeting(x+other.hspd,y,obj_chao) && global.colisao_morto=true )
+                        
+                       if (!place_meeting(x+other.hspd,y,colisoes) && global.colisao_morto=true )
                     {
                         
                        x+=other.hspd/2

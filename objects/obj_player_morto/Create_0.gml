@@ -1,8 +1,8 @@
 //lista de colisoes 
-colisoes=[obj_chao]
+colisoes=[obj_chao,obj_botao_chao,obj_porta]
 
 velv=0
-grav=.5
+grav=.3
 max_velv=7
 
 
