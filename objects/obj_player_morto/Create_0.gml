@@ -27,7 +27,7 @@ dando_colisao= function ()
     {
         with (obj_player)
          {
-            colisao_morto=true
+            global.colisao_morto=true
         }
     }    
 }

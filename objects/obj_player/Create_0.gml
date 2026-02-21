@@ -21,7 +21,7 @@ colisoes=[obj_chao]
 
 //personagem está vivo ou morto
 estado_morto="vivo"
-colisao_morto=false
+global.colisao_morto=false
 
 
 pega_inputs= function ()
@@ -88,18 +88,20 @@ mecanica_morrer=function ()
         
         case "morto": 
             sprite_index=spr_player_fantasma
-            image_alpha=.7   
+            image_alpha=.7
+             
         if (!instance_exists(obj_player_morto))
         {
          var _morto=instance_create_layer(x,y,"personagem_morto",obj_player_morto)
-            
+           
         }
             
-        if (colisao_morto=true)
+        if (global.colisao_morto=true)
         {
             array_push(colisoes,obj_player_morto)
         }
-        break           
+        break
+    
     } 
 }
 
@@ -116,10 +118,10 @@ movendo_corpo= function ()
                 var _block=_push_list[|i]
                 with (obj_player_morto)
                      {
-                       if (!place_meeting(x+other.hspd,y,obj_chao))
+                       if (!place_meeting(x+other.hspd,y,obj_chao) && global.colisao_morto=true )
                     {
                         
-                       x+=other.hspd 
+                       x+=other.hspd/2
                           
                     } 
                     	 
