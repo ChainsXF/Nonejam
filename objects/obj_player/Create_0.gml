@@ -98,6 +98,33 @@ mecanica_morrer=function ()
         if (colisao_morto=true)
         {
             array_push(colisoes,obj_player_morto)
-        }        
+        }
+        break           
     } 
+}
+
+movendo_corpo= function ()
+{
+   var _push_list=ds_list_create()
+   var _is_block_h=instance_place_list(x+hspd,y,obj_player_morto,_push_list,false)
+  if (_is_block_h)
+    {
+        if (ds_list_size(_push_list)) >0
+        {
+            for (var i = 0; i < ds_list_size(+_push_list); i++)
+             {
+                var _block=_push_list[|i]
+                with (obj_player_morto)
+                     {
+                       if (!place_meeting(x+other.hspd,y,obj_chao))
+                    {
+                        
+                       x+=other.hspd 
+                          
+                    } 
+                    	 
+                    }	
+            }
+        }       
+    }   
 }
