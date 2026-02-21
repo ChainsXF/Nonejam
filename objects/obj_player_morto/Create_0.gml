@@ -20,3 +20,14 @@ gravidade=function ()
         velv=0
     }           
 }
+
+dando_colisao= function ()
+{
+    if !place_meeting(x,y,obj_player)
+    {
+        with (obj_player)
+         {
+            colisao_morto=true
+        }
+    }    
+}

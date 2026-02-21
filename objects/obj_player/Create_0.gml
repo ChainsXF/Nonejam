@@ -21,6 +21,7 @@ colisoes=[obj_chao]
 
 //personagem está vivo ou morto
 estado_morto="vivo"
+colisao_morto=false
 
 
 pega_inputs= function ()
@@ -90,12 +91,13 @@ mecanica_morrer=function ()
             image_alpha=.7   
         if (!instance_exists(obj_player_morto))
         {
-         instance_create_layer(x,y,"personagem_morto",obj_player_morto)    
+         var _morto=instance_create_layer(x,y,"personagem_morto",obj_player_morto)
+            
         }
-      
-  
-        
+            
+        if (colisao_morto=true)
+        {
+            array_push(colisoes,obj_player_morto)
+        }        
     } 
-    
-       
 }

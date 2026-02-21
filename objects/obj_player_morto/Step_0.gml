@@ -1,1 +1,2 @@
 gravidade()
+dando_colisao()
