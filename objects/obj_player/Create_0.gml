@@ -24,8 +24,10 @@ coyote_timer_atual=coyote_time
 pulo_timer=game_get_speed(gamespeed_fps)*0.1
 pulo_timer_atual=0
 
+tile_chao=layer_tilemap_get_id("tl_level")
+
 //lista de colisoes 
-colisoes=[obj_chao,obj_botao_chao,obj_porta,obj_botao_lustre,obj_caixa,obj_suporte_caixa]
+colisoes=[obj_chao,obj_botao_chao,obj_porta,obj_botao_lustre,obj_caixa,obj_suporte_caixa,tile_chao]
 
 //personagem está vivo ou morto
 estado_morto="vivo"
@@ -49,11 +51,15 @@ movimentacao_horizontal = function ()
     
     if (_move) //estou me movendo 
     {
-        velh=lerp(velh,max_velh,acc)       
+        velh=lerp(velh,max_velh,acc)
+        
+        
+             
     }
     else
     {
         velh=lerp(velh,0,dcc)
+        
     }     
     
     var _dir=point_direction(0,0,right-left,0)
@@ -127,7 +133,7 @@ movimentacao_vertical= function ()
 
 mecanica_morrer=function ()
 {
-    if (death) or place_meeting(x+sign(hspd),y,obj_espinho)
+    if (death) or place_meeting(x+sign(hspd),y,obj_espinho) or place_meeting(x,y,obj_lustre)
     {
         global.morto=true
         estado_morto="morto"
@@ -136,7 +142,7 @@ mecanica_morrer=function ()
     switch (estado_morto)
      {
         case "vivo":
-        sprite_index=spr_player
+        sprite_index=spr_player_idle
         global.morto=false
         estado_morto="vivo"
         if (place_meeting(x,y,obj_lustre))

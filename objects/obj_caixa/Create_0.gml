@@ -20,3 +20,14 @@ gravidade=function ()
         velv=0
     }           
 }
+
+destruindo_chao_fragil= function ()
+{
+    if instance_place(x,y+1,obj_chao_fragil)
+    {
+        with (obj_chao_fragil)
+         {
+            instance_destroy()	
+        }
+    }    
+}

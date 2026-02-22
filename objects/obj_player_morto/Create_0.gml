@@ -34,7 +34,7 @@ dando_colisao= function ()
 
 colidindo_exploxao=function ()
 {
-    if (place_meeting(x+1,y,obj_barri_inflamavel))
+    if (place_meeting(x+1,y+1,obj_barri_inflamavel))
     {
        instance_destroy(obj_barri_inflamavel) 
        instance_destroy(obj_suporte_caixa) 

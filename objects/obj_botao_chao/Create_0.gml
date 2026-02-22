@@ -1,4 +1,4 @@
-colisao_botao=[obj_player,obj_player_morto]
+colisao_botao=[obj_player,obj_player_morto,obj_caixa]
 
 botao_pressionado=function ()
 {
