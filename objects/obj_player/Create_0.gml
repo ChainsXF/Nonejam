@@ -21,7 +21,7 @@ coyote_time=game_get_speed(gamespeed_fps)*0.1
 coyote_timer_atual=coyote_time
 
 //variaveis buffer do pulo
-pulo_timer=20
+pulo_timer=game_get_speed(gamespeed_fps)*0.1
 pulo_timer_atual=0
 
 //lista de colisoes 
@@ -94,11 +94,13 @@ buffer_pulo=function ()
 movimentacao_vertical= function ()
 {
     var _checa_chao=place_meeting(x,y+1,colisoes)
+    //if (pulo_timer_atual=0) velv=0
     if (_checa_chao)
     {
-     if (jump)
+     if (jump or pulo_timer_atual)
     { 
-        velv=-max_velv     
+        velv=-max_velv
+        pulo_timer_atual=0     
     }    
     }
     else
