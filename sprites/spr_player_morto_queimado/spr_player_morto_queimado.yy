@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_player_morto_queimado",
   "bboxMode":0,
-  "bbox_bottom":31,
+  "bbox_bottom":18,
   "bbox_left":0,
-  "bbox_right":31,
+  "bbox_right":22,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,19 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"eb8384da-b440-4fbf-ba51-c6fd9f861c84","name":"eb8384da-b440-4fbf-ba51-c6fd9f861c84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"986065e8-9b2d-469d-919e-1235f5a89ad5","name":"986065e8-9b2d-469d-919e-1235f5a89ad5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"43b74db5-6025-43f3-bc6b-732bdd3c9b69","name":"43b74db5-6025-43f3-bc6b-732bdd3c9b69","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8f786cbd-9355-46c6-8859-0ac1765b8a03","name":"8f786cbd-9355-46c6-8859-0ac1765b8a03","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0069cdef-d944-43a2-a64d-38ac3dc373b1","name":"0069cdef-d944-43a2-a64d-38ac3dc373b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a830c20c-bdac-4c08-a480-cb25ac6d689e","name":"a830c20c-bdac-4c08-a480-cb25ac6d689e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0d136447-9f6b-49cd-9daa-b81463b3980b","name":"0d136447-9f6b-49cd-9daa-b81463b3980b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":32,
+  "height":19,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"4a1b4a34-4637-4a99-85df-1b28cdc56225","blendMode":0,"displayName":"default","isLocked":false,"name":"4a1b4a34-4637-4a99-85df-1b28cdc56225","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"17fa5c39-063f-452a-84dc-b5e86b599393","blendMode":0,"displayName":"default","isLocked":false,"name":"17fa5c39-063f-452a-84dc-b5e86b599393","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_player_morto_queimado",
   "nineSlice":null,
@@ -49,7 +54,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":6.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -59,7 +64,7 @@
     },
     "name":"spr_player_morto_queimado",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":13.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -69,14 +74,29 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb8384da-b440-4fbf-ba51-c6fd9f861c84","path":"sprites/spr_player_morto_queimado/spr_player_morto_queimado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"17f6615d-1fe5-4bf4-ae85-203ea2a2ee0b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"986065e8-9b2d-469d-919e-1235f5a89ad5","path":"sprites/spr_player_morto_queimado/spr_player_morto_queimado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e40d3c56-e32e-4cfc-bbb0-6fd7387cc50d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43b74db5-6025-43f3-bc6b-732bdd3c9b69","path":"sprites/spr_player_morto_queimado/spr_player_morto_queimado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"46c0e779-58fd-48dd-9592-df7df8d0b3ed","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f786cbd-9355-46c6-8859-0ac1765b8a03","path":"sprites/spr_player_morto_queimado/spr_player_morto_queimado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4dcb1c68-a83c-40a2-b9cd-d37fe5375559","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0069cdef-d944-43a2-a64d-38ac3dc373b1","path":"sprites/spr_player_morto_queimado/spr_player_morto_queimado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6bf363e2-dfc8-4ca6-b7d1-b6bf6812c74d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a830c20c-bdac-4c08-a480-cb25ac6d689e","path":"sprites/spr_player_morto_queimado/spr_player_morto_queimado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b1aa8629-d2eb-4062-a248-7a199c50463f","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0d136447-9f6b-49cd-9daa-b81463b3980b","path":"sprites/spr_player_morto_queimado/spr_player_morto_queimado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"226d1c1b-7e27-45b7-8981-a45c9acd8f9b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":16,
-    "yorigin":32,
+    "xorigin":11,
+    "yorigin":19,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -86,5 +106,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":32,
+  "width":23,
 }

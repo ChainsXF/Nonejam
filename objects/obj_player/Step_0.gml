@@ -9,4 +9,3 @@ buffer_pulo()
 maquina_sprite()
 
 
-show_debug_message(sprite_index)

@@ -7,11 +7,12 @@ botao_pressionado=function ()
           if (place_meeting(x,y-1,colisao_botao))
     {
         obj_lustre.gravidade()
-        
+        image_index=1
     }  
     }
     else
      {
+        image_index=0	
     	return
     }
    
@@ -24,10 +25,12 @@ botao_pressionado_porta=function ()
         if (place_meeting(x,y-1,colisao_botao))
     {
         obj_porta.estado_porta="abrindo"
+        image_index=1
     }
     else
      {
-       obj_porta.estado_porta="fechando"	
+       obj_porta.estado_porta="fechando"
+        image_index=0	
     }   
     }
    else {
