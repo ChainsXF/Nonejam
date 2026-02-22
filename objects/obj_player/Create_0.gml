@@ -206,13 +206,7 @@ maquina_sprite=function ()
              sprite_index=spr_player_idle 
          }
            if (global.morto=true) personagem_estado="esta_morto"
-            if (instance_exists(obj_barri_inflamavel))
-            {
-                if place_meeting(x,y,obj_barri_inflamavel)
-                {
-                    estado="morto_e_queimado"
-                }
-            }         
+                                 
         break 
         case "esta_morto":
         if (velh>0.2)
@@ -222,21 +216,10 @@ maquina_sprite=function ()
         else 
         {
             sprite_index=spr_player_fantasma_idle
-        } 
-                    if (instance_exists(obj_barri_inflamavel))
-            {
-                if place_meeting(x,y,obj_barri_inflamavel)
-                {
-                    estado="morto_e_queimado"
-                }                  
+        }               
         break       	
     }
-    case "morto_e_queimado":
-    {
-        sprite_index=spr_player_morto_queimado
-    }
-        break   
-}
+    
 }
 
 

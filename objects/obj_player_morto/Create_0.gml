@@ -7,6 +7,7 @@ grav=.3
 max_velv=7
 
 
+
 gravidade=function ()
 {
   var _checa_chao=place_meeting(x,y,colisoes)

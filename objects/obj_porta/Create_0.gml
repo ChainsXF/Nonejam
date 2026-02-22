@@ -10,7 +10,7 @@ movendo_porta=function ()
     break
 
     case "abrindo":
-    y=approach(y,sprite_height,.6)
+    y=approach(y,pos_y_abrindo,.6)
         
     break                
       
