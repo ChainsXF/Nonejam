@@ -8,8 +8,8 @@
   "name":"obj_chao_fragil",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"objs_level",
+    "path":"folders/Objects/objs_level.yy",
   },
   "parentObjectId":{
     "name":"obj_chao",

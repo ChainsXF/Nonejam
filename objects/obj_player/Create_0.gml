@@ -1,12 +1,13 @@
 velh=0
 velv=0
-max_velh=6
-max_velv=8
+max_velh=4
+max_velv=6
 acc=.3
 dcc=.3
 hspd=0
 vspd=0
 grav=.4
+dir=1
 
 //variaveis de input
 up=noone
@@ -32,6 +33,9 @@ colisoes=[obj_chao,obj_botao_chao,obj_porta,obj_botao_lustre,obj_caixa,obj_supor
 //personagem está vivo ou morto
 estado_morto="vivo"
 global.colisao_morto=false
+
+//variavel para controlar as sprites do personagem em uma maquina de estados
+personagem_estado="esta_vivo"
 
 
 pega_inputs= function ()
@@ -142,7 +146,6 @@ mecanica_morrer=function ()
     switch (estado_morto)
      {
         case "vivo":
-        sprite_index=spr_player_idle
         global.morto=false
         estado_morto="vivo"
         if (place_meeting(x,y,obj_lustre))
@@ -153,8 +156,7 @@ mecanica_morrer=function ()
         break
         
         case "morto_queimado":
-            sprite_index=spr_player_fantasma
-            image_alpha=.7
+
              
         if (!instance_exists(obj_player_morto))
         {
@@ -171,8 +173,7 @@ mecanica_morrer=function ()
         break       
         
         case "morto": 
-            sprite_index=spr_player_fantasma
-            image_alpha=.7
+
              
         if (!instance_exists(obj_player_morto))
         {
@@ -189,6 +190,35 @@ mecanica_morrer=function ()
     } 
 }
 
+maquina_sprite=function ()
+{
+    switch (personagem_estado)
+     {
+        case "esta_vivo":
+        if (velh>0.2)
+        {
+            sprite_index=spr_player_andando
+            
+        }
+        else
+         {
+             sprite_index=spr_player_idle 
+         }
+           if (global.morto=true) personagem_estado="esta_morto"         
+        break 
+        case "esta_morto":
+        if (velh>0.2)
+        {
+            sprite_index=spr_player_fantasma_andando
+        }
+        else 
+        {
+            sprite_index=spr_player_fantasma_idle
+        }               
+        break       	
+    }
+    
+}
 
 
 movendo_corpo= function ()

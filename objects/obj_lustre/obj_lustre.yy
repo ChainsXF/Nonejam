@@ -10,8 +10,8 @@
   "name":"obj_lustre",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"objs_level",
+    "path":"folders/Objects/objs_level.yy",
   },
   "parentObjectId":null,
   "persistent":false,

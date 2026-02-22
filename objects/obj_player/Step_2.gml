@@ -5,14 +5,14 @@ repeat (abs(hspd))
     if place_meeting(x+_velh,y,colisoes)
     {
         velh=0
-        sprite_index=spr_player_idle
+        
         break
     }
     else
      {
     	x+=_velh
-        sprite_index=spr_player_andando
         image_xscale=_velh
+
     }
 }
 

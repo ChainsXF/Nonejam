@@ -1,3 +1,4 @@
+
 estado_porta="fechado"
 
 movendo_porta=function ()

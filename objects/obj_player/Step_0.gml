@@ -6,4 +6,7 @@ movendo_corpo()
 movendo_caixa()
 coyote_jump()
 buffer_pulo()
+maquina_sprite()
 
+
+show_debug_message(sprite_index)
