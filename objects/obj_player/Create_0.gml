@@ -16,6 +16,14 @@ right=noone
 jump=noone
 death=noone
 
+//variaveis coiote jump
+coyote_time=game_get_speed(gamespeed_fps)*0.1
+coyote_timer_atual=coyote_time
+
+//variaveis buffer do pulo
+pulo_timer=20
+pulo_timer_atual=0
+
 //lista de colisoes 
 colisoes=[obj_chao,obj_botao_chao,obj_porta,obj_botao_lustre,obj_caixa,obj_suporte_caixa]
 
@@ -31,6 +39,7 @@ pega_inputs= function ()
     left=keyboard_check(ord("A"))   
     right=keyboard_check(ord("D")) 
     jump=keyboard_check_pressed(vk_space)
+    jump_r=keyboard_check_released(vk_space)
     death=keyboard_check_pressed(ord("E"))  
 }
 
@@ -52,6 +61,36 @@ movimentacao_horizontal = function ()
     hspd=round(hspd)
 }
 
+//metodo coyote jump
+coyote_jump = function ()
+{
+    var _checa_chao=place_meeting(x,y+1,colisoes)
+    
+    if !_checa_chao
+    {
+       coyote_timer_atual-- 
+    }
+    else    
+    {
+        coyote_timer_atual=coyote_time
+    }
+}
+
+//buffer do pulo
+buffer_pulo=function ()
+{
+  var _checa_chao=place_meeting(x,y+1,colisoes)  
+    pega_inputs()
+    
+    if !_checa_chao 
+    {
+        if (jump) pulo_timer_atual=pulo_timer
+            
+        pulo_timer_atual--
+    }
+    
+}
+
 movimentacao_vertical= function ()
 {
     var _checa_chao=place_meeting(x,y+1,colisoes)
@@ -66,7 +105,21 @@ movimentacao_vertical= function ()
     {
       velv+=grav
       velv=clamp(velv,-max_velv,max_velv)  
-    }       
+    }
+    
+    if (velv<0)
+    {
+        if (jump_r)
+        {
+            velv*=0.5
+        }
+    } 
+    
+    if (coyote_timer_atual && jump)
+    {
+      velv=-max_velv
+        coyote_timer_atual=0   
+    }         
     
 }
 
@@ -127,6 +180,8 @@ mecanica_morrer=function ()
     
     } 
 }
+
+
 
 movendo_corpo= function ()
 {
