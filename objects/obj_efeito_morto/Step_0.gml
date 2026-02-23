@@ -1,0 +1,1 @@
+layer_enable_fx("efeito_morto",global.morto)
