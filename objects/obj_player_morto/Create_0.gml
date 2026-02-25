@@ -36,9 +36,17 @@ dando_colisao= function ()
 
 colidindo_exploxao=function ()
 {
-    if (place_meeting(x+1,y+1,obj_barri_inflamavel))
+    if (instance_exists(obj_suporte_caixa))
     {
+         if (place_meeting(x+1,y+1,obj_barri_inflamavel))
+    {
+        scream_shake(10)
        instance_destroy(obj_barri_inflamavel) 
        instance_destroy(obj_suporte_caixa) 
+    }   
+    }
+    else
+    {
+        return
     }
 }
