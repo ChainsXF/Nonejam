@@ -141,6 +141,7 @@ mecanica_morrer=function ()
     {
         global.morto=true
         estado_morto="morto"
+        
     }
     
     switch (estado_morto)
@@ -179,7 +180,7 @@ mecanica_morrer=function ()
         if (!instance_exists(obj_player_morto))
         {
          var _morto=instance_create_layer(x,y,"personagem_morto",obj_player_morto)
-           
+          audio_play_sound(snd_som_morte,1,false) 
         }
             
         if (global.colisao_morto=true)
