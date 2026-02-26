@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_suporte_caixa",
+  "%Name":"obj_destrutivel_pai",
   "eventList":[],
   "managed":true,
-  "name":"obj_suporte_caixa",
+  "name":"obj_destrutivel_pai",
   "overriddenProperties":[],
   "parent":{
-    "name":"objs_level",
-    "path":"folders/Objects/objs_level.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_destrutivel_pai",
-    "path":"objects/obj_destrutivel_pai/obj_destrutivel_pai.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_suporte_caixa",
-    "path":"sprites/spr_suporte_caixa/spr_suporte_caixa.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

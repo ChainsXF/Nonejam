@@ -21,3 +21,24 @@ gravidade=function ()
         velv=0
     }           
 }
+
+destroi_itens= function ()
+{
+    // 1. Criar uma lista para armazenar os IDs encontrados
+var _lista_alvos = ds_list_create();
+
+// 2. Definir o raio da explosão e o objeto alvo (pode ser 'all' para todos)
+var _raio = 128; 
+var _objeto_alvo = obj_destroi_pai; // Use um objeto pai para atingir vários tipos
+
+// 3. Buscar instâncias no raio circular
+var _quantidade = collision_circle_list(x, y, _raio, _objeto_alvo, false, true, _lista_alvos, false);
+
+// 4. Percorrer a lista e destruir cada instância encontrada
+for (var i = 0; i < _quantidade; i++) {
+    instance_destroy(_lista_alvos[| i]);
+}
+
+// 5. IMPORTANTE: Destruir a lista para evitar vazamento de memória (memory leak)
+ds_list_destroy(_lista_alvos);
+}
