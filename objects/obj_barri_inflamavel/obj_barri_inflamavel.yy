@@ -14,10 +14,7 @@
     "name":"objs_level",
     "path":"folders/Objects/objs_level.yy",
   },
-  "parentObjectId":{
-    "name":"obj_botao_chao",
-    "path":"objects/obj_botao_chao/obj_botao_chao.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
