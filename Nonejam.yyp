@@ -61,7 +61,10 @@
     {"id":{"name":"obj_chao_fragil","path":"objects/obj_chao_fragil/obj_chao_fragil.yy",},},
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"id":{"name":"obj_destroi_pai","path":"objects/obj_destroi_pai/obj_destroi_pai.yy",},},
+=======
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
 =======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
     {"id":{"name":"obj_efeito_morto","path":"objects/obj_efeito_morto/obj_efeito_morto.yy",},},
@@ -126,6 +129,7 @@
     {"roomId":{"name":"rm_modelo","path":"rooms/rm_modelo/rm_modelo.yy",},},
     {"roomId":{"name":"rm_level_3","path":"rooms/rm_level_3/rm_level_3.yy",},},
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"roomId":{"name":"rm_level_4","path":"rooms/rm_level_4/rm_level_4.yy",},},
 =======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
@@ -135,6 +139,13 @@
     {"roomId":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
 <<<<<<< HEAD
 =======
+    {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
+    {"roomId":{"name":"rm_modelo","path":"rooms/rm_modelo/rm_modelo.yy",},},
+    {"roomId":{"name":"rm_level_4","path":"rooms/rm_level_4/rm_level_4.yy",},},
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
+=======
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"roomId":{"name":"rm_modelo","path":"rooms/rm_modelo/rm_modelo.yy",},},
     {"roomId":{"name":"rm_level_4","path":"rooms/rm_level_4/rm_level_4.yy",},},

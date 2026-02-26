@@ -37,6 +37,7 @@ dando_colisao= function ()
 colidindo_exploxao=function ()
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 if place_meeting(x,y,obj_barri_inflamavel)
 {
     with (obj_barri_inflamavel)
@@ -45,6 +46,8 @@ if place_meeting(x,y,obj_barri_inflamavel)
     }
 }
 =======
+=======
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
     if (instance_exists(obj_suporte_caixa))
     {
          if (place_meeting(x+1,y+1,obj_barri_inflamavel))
@@ -58,5 +61,8 @@ if place_meeting(x,y,obj_barri_inflamavel)
     {
         return
     }
+<<<<<<< HEAD
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
+=======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
 }

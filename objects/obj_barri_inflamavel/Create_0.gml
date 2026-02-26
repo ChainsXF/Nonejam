@@ -21,6 +21,7 @@ gravidade=function ()
         velv=0
     }           
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 destroi_itens= function ()
@@ -42,6 +43,8 @@ for (var i = 0; i < _quantidade; i++) {
 
 // 5. IMPORTANTE: Destruir a lista para evitar vazamento de memória (memory leak)
 ds_list_destroy(_lista_alvos);
+=======
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
 =======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
 }

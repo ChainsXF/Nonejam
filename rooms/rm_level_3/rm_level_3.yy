@@ -29,7 +29,10 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_muda_level","path":"objects/obj_muda_level/obj_muda_level.yy",},"propertyId":{"name":"destino","path":"objects/obj_muda_level/obj_muda_level.yy",},"resource":{"name":"rm_level_4","path":"rooms/rm_level_4/rm_level_4.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_level_4",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.484375,"x":429.0,"y":488.0,},
 <<<<<<< HEAD
+<<<<<<< HEAD
         {"$GMRInstance":"v4","%Name":"inst_65C8140F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_65C8140F","objectId":{"name":"obj_chao_fragil","path":"objects/obj_chao_fragil/obj_chao_fragil.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":576.0,},
+=======
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
 =======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
       ],"layers":[],"name":"jogador_vivo","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
