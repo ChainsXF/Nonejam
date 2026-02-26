@@ -260,7 +260,7 @@ movendo_caixa= function ()
     {
         if (ds_list_size(_push_list)) >0
         {
-            for (var i = 0; i < ds_list_size(+_push_list); i++)
+            for (var i = 0; i < ds_list_size(_push_list); i++)
              {
                 var _block=_push_list[|i]
                 with (obj_caixa)
