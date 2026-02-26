@@ -16,6 +16,7 @@
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"objs_gerais","folderPath":"folders/Objects/objs_gerais.yy","name":"objs_gerais","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objs_level","folderPath":"folders/Objects/objs_level.yy","name":"objs_level","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objs_player","folderPath":"folders/Objects/objs_player.yy","name":"objs_player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -59,7 +60,16 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_chao_fragil","path":"objects/obj_chao_fragil/obj_chao_fragil.yy",},},
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
-    {"id":{"name":"obj_destrutivel_pai","path":"objects/obj_destrutivel_pai/obj_destrutivel_pai.yy",},},
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    {"id":{"name":"obj_destroi_pai","path":"objects/obj_destroi_pai/obj_destroi_pai.yy",},},
+=======
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
+=======
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
+=======
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
     {"id":{"name":"obj_efeito_morto","path":"objects/obj_efeito_morto/obj_efeito_morto.yy",},},
     {"id":{"name":"obj_espinho","path":"objects/obj_espinho/obj_espinho.yy",},},
     {"id":{"name":"obj_lustre","path":"objects/obj_lustre/obj_lustre.yy",},},
@@ -76,7 +86,6 @@
     {"id":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
     {"id":{"name":"rm_level_3_plano","path":"rooms/rm_level_3_plano/rm_level_3_plano.yy",},},
     {"id":{"name":"rm_level_3","path":"rooms/rm_level_3/rm_level_3.yy",},},
-    {"id":{"name":"rm_level_4_plano","path":"rooms/rm_level_4_plano/rm_level_4_plano.yy",},},
     {"id":{"name":"rm_level_4","path":"rooms/rm_level_4/rm_level_4.yy",},},
     {"id":{"name":"rm_menu_comando","path":"rooms/rm_menu_comando/rm_menu_comando.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
@@ -120,13 +129,36 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_modelo","path":"rooms/rm_modelo/rm_modelo.yy",},},
     {"roomId":{"name":"rm_level_3","path":"rooms/rm_level_3/rm_level_3.yy",},},
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    {"roomId":{"name":"rm_level_4","path":"rooms/rm_level_4/rm_level_4.yy",},},
+=======
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"roomId":{"name":"rm_level_4_plano","path":"rooms/rm_level_4_plano/rm_level_4_plano.yy",},},
+    {"roomId":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
+<<<<<<< HEAD
+=======
+    {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
+    {"roomId":{"name":"rm_modelo","path":"rooms/rm_modelo/rm_modelo.yy",},},
     {"roomId":{"name":"rm_level_4","path":"rooms/rm_level_4/rm_level_4.yy",},},
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
+=======
+=======
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
+    {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"roomId":{"name":"rm_modelo","path":"rooms/rm_modelo/rm_modelo.yy",},},
+    {"roomId":{"name":"rm_level_4","path":"rooms/rm_level_4/rm_level_4.yy",},},
+<<<<<<< HEAD
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
+=======
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
     {"roomId":{"name":"rm_level_3_plano","path":"rooms/rm_level_3_plano/rm_level_3_plano.yy",},},
     {"roomId":{"name":"rm_menu_comando","path":"rooms/rm_menu_comando/rm_menu_comando.yy",},},
   ],

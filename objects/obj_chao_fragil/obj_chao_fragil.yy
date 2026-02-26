@@ -12,8 +12,8 @@
     "path":"folders/Objects/objs_level.yy",
   },
   "parentObjectId":{
-    "name":"obj_destrutivel_pai",
-    "path":"objects/obj_destrutivel_pai/obj_destrutivel_pai.yy",
+    "name":"obj_chao",
+    "path":"objects/obj_chao/obj_chao.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

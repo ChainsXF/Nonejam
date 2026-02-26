@@ -9,10 +9,22 @@
     "name":"objs_level",
     "path":"folders/Objects/objs_level.yy",
   },
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   "parentObjectId":{
-    "name":"obj_destrutivel_pai",
-    "path":"objects/obj_destrutivel_pai/obj_destrutivel_pai.yy",
+    "name":"obj_destroi_pai",
+    "path":"objects/obj_destroi_pai/obj_destroi_pai.yy",
   },
+=======
+  "parentObjectId":null,
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
+=======
+  "parentObjectId":null,
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
+=======
+  "parentObjectId":null,
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

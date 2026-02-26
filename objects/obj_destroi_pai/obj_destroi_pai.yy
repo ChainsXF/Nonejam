@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_destrutivel_pai",
+  "%Name":"obj_destroi_pai",
   "eventList":[],
   "managed":true,
-  "name":"obj_destrutivel_pai",
+  "name":"obj_destroi_pai",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
