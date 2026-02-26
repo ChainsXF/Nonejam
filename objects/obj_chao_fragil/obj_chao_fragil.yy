@@ -12,8 +12,8 @@
     "path":"folders/Objects/objs_level.yy",
   },
   "parentObjectId":{
-    "name":"obj_destroi_pai",
-    "path":"objects/obj_destroi_pai/obj_destroi_pai.yy",
+    "name":"obj_chao",
+    "path":"objects/obj_chao/obj_chao.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
