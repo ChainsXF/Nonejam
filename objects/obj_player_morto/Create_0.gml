@@ -34,7 +34,3 @@ dando_colisao= function ()
     }    
 }
 
-colidindo_exploxao=function ()
-{
-if (instance_de)
-}
