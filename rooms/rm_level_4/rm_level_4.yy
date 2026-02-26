@@ -8,6 +8,7 @@
   "instanceCreationOrder":[
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"name":"inst_22B8117F1_1_1","path":"rooms/rm_level_4/rm_level_4.yy",},
     {"name":"inst_6F54073C1_1","path":"rooms/rm_level_4/rm_level_4.yy",},
     {"name":"inst_21BAEE47_1_1","path":"rooms/rm_level_4/rm_level_4.yy",},
@@ -19,6 +20,8 @@
     {"name":"inst_538EB2D3","path":"rooms/rm_level_4/rm_level_4.yy",},
     {"name":"inst_14EB105A","path":"rooms/rm_level_4/rm_level_4.yy",},
 =======
+=======
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
 =======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
     {"name":"inst_43CF753D1_2","path":"rooms/rm_level_4/rm_level_4.yy",},
@@ -54,6 +57,9 @@
     {"name":"inst_2F6114A9","path":"rooms/rm_level_4/rm_level_4.yy",},
     {"name":"inst_7A5036D4","path":"rooms/rm_level_4/rm_level_4.yy",},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
+=======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
 =======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
@@ -65,6 +71,7 @@
         {"$GMRInstance":"v4","%Name":"inst_1C5F7DF9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C5F7DF9","objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":39.0,"y":33.0,},
       ],"layers":[],"name":"jogador_vivo","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"personagem_morto","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"personagem_morto","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     {"$GMREffectLayer":"","%Name":"efeito_morto","depth":200,"effectEnabled":true,"effectType":"_filter_heathaze","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"efeito_morto","properties":[
@@ -165,6 +172,8 @@
 =======
 =======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
+=======
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
     {"$GMRInstanceLayer":"","%Name":"props","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"props","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"chao","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_60756C0A1_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_60756C0A1_2","objectId":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.53125,"x":128.0,"y":455.5,},
@@ -202,6 +211,9 @@
       ],"layers":[],"name":"chao","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4286545791,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
+=======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
 =======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
