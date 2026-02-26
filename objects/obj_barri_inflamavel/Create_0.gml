@@ -24,7 +24,7 @@ gravidade=function ()
 
 destroi_itens= function ()
 {
-    // 1. Criar uma lista para armazenar os IDs encontrados
+// 1. Criar uma lista para armazenar os IDs encontrados
 var _lista_alvos = ds_list_create();
 
 // 2. Definir o raio da explosão e o objeto alvo (pode ser 'all' para todos)

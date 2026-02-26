@@ -36,5 +36,11 @@ dando_colisao= function ()
 
 colidindo_exploxao=function ()
 {
-if (instance_de)
+if place_meeting(x,y,obj_barri_inflamavel)
+{
+    with (obj_barri_inflamavel)
+     {
+        destroi_itens()	
+    }
+}
 }

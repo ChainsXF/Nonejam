@@ -279,3 +279,34 @@ movendo_caixa= function ()
     }
     ds_list_destroy(_push_list)   
 }
+
+movendo_barril= function ()
+{
+    movendo_caixa= function ()
+{
+   var _push_list=ds_list_create()
+   var _is_block_h=instance_place_list(x+hspd,y,obj_barri_inflamavel,_push_list,false)
+  if (_is_block_h)
+    {
+        if (ds_list_size(_push_list)) >0
+        {
+            for (var i = 0; i < ds_list_size(+_push_list); i++)
+             {
+                var _block=_push_list[|i]
+                with (obj_barri_inflamavel)
+                     {
+                        
+                       if (!place_meeting(x+other.hspd,y,colisoes) )
+                    {
+                        
+                       x+=other.hspd/2
+                          
+                    } 
+                    	 
+                    }	
+            }
+        }       
+    }
+    ds_list_destroy(_push_list)   
+}
+}
