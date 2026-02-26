@@ -38,6 +38,7 @@ colidindo_exploxao=function ()
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 if place_meeting(x,y,obj_barri_inflamavel)
 {
     with (obj_barri_inflamavel)
@@ -46,6 +47,8 @@ if place_meeting(x,y,obj_barri_inflamavel)
     }
 }
 =======
+=======
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
 =======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
     if (instance_exists(obj_suporte_caixa))
@@ -62,6 +65,9 @@ if place_meeting(x,y,obj_barri_inflamavel)
         return
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 0a3fd9f (minha nossa senhora)
+=======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
 =======
 >>>>>>> parent of 0a3fd9f (minha nossa senhora)
