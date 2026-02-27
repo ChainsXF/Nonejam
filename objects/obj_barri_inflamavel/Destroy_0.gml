@@ -1,8 +1,3 @@
-if (instance_exists(obj_chao_fragil))
-{
-    
-    instance_destroy(obj_chao_fragil)
-}
-else {
-	return
-}
+effect_create_above(ef_explosion, x, y, 1, c_orange);
+scream_shake(12)
+destroi_itens();
