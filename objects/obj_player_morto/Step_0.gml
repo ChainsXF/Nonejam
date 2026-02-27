@@ -1,6 +1,6 @@
 gravidade()
 dando_colisao()
-colidindo_exploxao()
+
 
 if (instance_exists(obj_lustre))
 {

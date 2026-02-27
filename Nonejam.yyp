@@ -120,8 +120,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_level_3","path":"rooms/rm_level_3/rm_level_3.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
+    {"roomId":{"name":"rm_level_3","path":"rooms/rm_level_3/rm_level_3.yy",},},
     {"roomId":{"name":"rm_level_4_plano","path":"rooms/rm_level_4_plano/rm_level_4_plano.yy",},},
     {"roomId":{"name":"rm_level_4","path":"rooms/rm_level_4/rm_level_4.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
