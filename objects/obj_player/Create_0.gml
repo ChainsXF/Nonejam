@@ -149,10 +149,7 @@ mecanica_morrer=function ()
         case "vivo":
         global.morto=false
         estado_morto="vivo"
-            if (instance_exists(obj_chao_invisivel))
-            {
-                obj_chao_invisivel.visible=false
-            }
+
             
         if (place_meeting(x,y,obj_lustre))
         {
@@ -170,10 +167,7 @@ mecanica_morrer=function ()
             _morto.sprite_index=spr_player_morto_queimado
            
         }
-              if (instance_exists(obj_chao_invisivel))
-            {
-                obj_chao_invisivel.visible=true
-            }
+        array_push(colisoes,obj_chao_invisivel)
                
             
         if (global.colisao_morto=true)
@@ -185,16 +179,13 @@ mecanica_morrer=function ()
         
         case "morto": 
 
-            if (instance_exists(obj_chao_invisivel))
-            {
-                obj_chao_invisivel.visible=true
-            }
-                 
+             
         if (!instance_exists(obj_player_morto))
         {
          var _morto=instance_create_layer(x,y,"personagem_morto",obj_player_morto)
           audio_play_sound(snd_som_morte,1,false) 
-        }
+        } 
+            array_push(colisoes,obj_chao_invisivel)
             
         if (global.colisao_morto=true)
         {
