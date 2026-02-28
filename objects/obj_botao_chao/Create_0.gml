@@ -6,11 +6,13 @@ botao_pressionado=function ()
     {
          if (place_meeting(x,y-1,colisao_botao))
     {
+        
         obj_porta.estado_porta="abrindo"
         image_index=1
     }
     else
      {
+        
        obj_porta.estado_porta="fechando"
         image_index=0	
     }    

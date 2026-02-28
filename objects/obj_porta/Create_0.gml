@@ -13,6 +13,7 @@ movendo_porta=function ()
     y=approach(y,pos_y_abrindo,.6)
     if y!=pos_y_abrindo
     {
+                
                 scream_shake(3)
     }      
 
@@ -23,6 +24,7 @@ movendo_porta=function ()
     y=approach(y,pos_y,.8)    
          if y!=pos_y
     {
+        
                 scream_shake(3)
     }    
         

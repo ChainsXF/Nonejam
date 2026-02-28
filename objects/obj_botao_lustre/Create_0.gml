@@ -6,6 +6,7 @@ botao_pressionado=function ()
     {
           if (place_meeting(x,y-1,colisao_botao))
     {
+        
         obj_lustre.gravidade()
         image_index=1
     }  

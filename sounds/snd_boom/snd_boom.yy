@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_som_morte",
+  "%Name":"snd_boom",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.61156464,
+  "duration":1.2905215,
   "exportDir":"",
-  "name":"snd_som_morte",
+  "name":"snd_boom",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_som_morte.wav",
+  "soundFile":"snd_boom.wav",
   "volume":1.0,
 }
