@@ -6,8 +6,8 @@
   "name":"obj_destrutivel_pai",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"objetos_game",
+    "path":"folders/Objects/objetos_game.yy",
   },
   "parentObjectId":null,
   "persistent":false,

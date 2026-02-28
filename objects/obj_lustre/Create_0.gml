@@ -1,6 +1,8 @@
 //lista de colisoes 
 tile_chao=layer_tilemap_get_id("tl_level")
 colisoes=[obj_chao,obj_botao_chao,obj_porta,tile_chao]
+som_executado = false;
+
 
 velv=0
 grav=.8

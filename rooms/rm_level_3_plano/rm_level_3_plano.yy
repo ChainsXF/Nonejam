@@ -57,8 +57,8 @@
   ],
   "name":"rm_level_3_plano",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"rooms_plano",
+    "path":"folders/Rooms/rooms_plano.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
