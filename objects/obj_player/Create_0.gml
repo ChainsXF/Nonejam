@@ -214,6 +214,11 @@ maquina_sprite=function ()
                                  
         break 
         case "esta_morto":
+        if (place_meeting(x,y,obj_serra))
+        {
+            room_restart()
+        }        
+            
         if (velh>0.2)
         {
             sprite_index=spr_player_fantasma_andando

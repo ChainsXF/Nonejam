@@ -1,2 +1,2 @@
 botao_pressionado()
-botao_pressionado_porta()
+//botao_pressionado_porta()
