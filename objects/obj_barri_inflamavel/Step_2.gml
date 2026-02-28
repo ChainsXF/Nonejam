@@ -7,6 +7,7 @@ repeat (abs(velv))
     }
     else    
     {
+        som_executado=false
         y+=_velv
     }
 }

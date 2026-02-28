@@ -104,6 +104,7 @@
     {"id":{"name":"snd_menu_confirma","path":"sounds/snd_menu_confirma/snd_menu_confirma.yy",},},
     {"id":{"name":"snd_menu_musica","path":"sounds/snd_menu_musica/snd_menu_musica.yy",},},
     {"id":{"name":"snd_menu","path":"sounds/snd_menu/snd_menu.yy",},},
+    {"id":{"name":"snd_obj_chao","path":"sounds/snd_obj_chao/snd_obj_chao.yy",},},
     {"id":{"name":"snd_pisou_botao","path":"sounds/snd_pisou_botao/snd_pisou_botao.yy",},},
     {"id":{"name":"snd_porta","path":"sounds/snd_porta/snd_porta.yy",},},
     {"id":{"name":"snd_som_morte","path":"sounds/snd_som_morte/snd_som_morte.yy",},},
@@ -139,9 +140,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_level_3","path":"rooms/rm_level_3/rm_level_3.yy",},},
+    {"roomId":{"name":"rm_level_2","path":"rooms/rm_level_2/rm_level_2.yy",},},
     {"roomId":{"name":"rm_level_6","path":"rooms/rm_level_6/rm_level_6.yy",},},
     {"roomId":{"name":"rm_level_4","path":"rooms/rm_level_4/rm_level_4.yy",},},
     {"roomId":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},

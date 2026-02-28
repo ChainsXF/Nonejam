@@ -1,6 +1,7 @@
 //lista de colisoes
 tile_chao=layer_tilemap_get_id("tl_level") 
 colisoes=[obj_chao,obj_botao_chao,obj_porta,obj_botao_lustre,obj_suporte_caixa,tile_chao]
+som_executado=noone
 
 
 velv=0
@@ -14,6 +15,7 @@ gravidade=function ()
     
   if (!_checa_chao)
     {
+        
       velv+=grav 
        velv=clamp(velv,-max_velv,max_velv)  
     }
