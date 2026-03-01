@@ -1,7 +1,7 @@
 //lista de colisoes 
 scream_shake(12)
 tile_chao=layer_tilemap_get_id("tl_level")
-colisoes=[obj_chao,obj_botao_chao,obj_porta,obj_botao_lustre,obj_caixa,obj_suporte_caixa,tile_chao,obj_chao_fragil]
+colisoes=[obj_chao,obj_botao_chao,obj_porta,obj_botao_lustre,obj_caixa,obj_suporte_caixa,tile_chao,obj_chao_fragil,obj_chao_invisivel]
 
 velv=0
 grav=.3
