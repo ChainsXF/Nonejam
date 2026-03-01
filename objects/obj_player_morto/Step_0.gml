@@ -5,7 +5,7 @@ dando_colisao()
 var _barril = instance_nearest(x, y, obj_barri_inflamavel);
 
 if (_barril != noone) {
-    if (distance_to_object(_barril) <= 1) { 
+    if (distance_to_object(_barril) <= 1 && sprite_index==spr_player_morto_queimado) { 
         
         instance_destroy(_barril); 
     }
